@@ -1,0 +1,33 @@
+{
+    "name": "crypto-airdrop",
+    "version": "1.0.0",
+    "description": "crypto airdrop",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tuagkcuf/crypto-airdrop.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tuagkcuf/crypto-airdrop/issues"
+    },
+    "homepage": "https://github.com/tuagkcuf/crypto-airdrop#readme",
+    "devDependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.2.3",
+        "@nomiclabs/hardhat-waffle": "2.0.5",
+        "chai": "^4.3.7",
+        "ethereum-waffle": "^3.4.0",
+        "ethers": "^5.6.1",
+        "hardhat": "^2.9.1"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.5.0",
+        "keccak256": "^1.0.6",
+        "merkletreejs": "^0.2.31"
+    }
+}
